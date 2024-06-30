@@ -1,0 +1,32 @@
+.outer-div{
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 100vh;
+  margin-top: 50px;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 100px;
+}
+.earp{
+  width: 550px;
+  height: 100vh;
+  position: absolute;
+  border-radius: 10px;
+  background-image: url('../images/4175.jpg');
+  background-size: cover; /* Ensure the image covers the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  right: 0px;
+}
+.det{
+  width: 550px;
+  height: 100vh;
+  position: absolute;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 130px;
+  padding-right: 10px;
+}
+p{
+  padding-top: 70px;
+}

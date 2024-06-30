@@ -1,0 +1,14 @@
+.navbar-brand-fancy {
+  font-family: "Playwrite VN", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cart-icon {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.active-link {
+  color: #FF7F3E !important;
+}

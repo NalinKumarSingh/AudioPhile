@@ -1,0 +1,65 @@
+.home-section {
+  display: flex;
+  height: 100vh;
+  background: #FF7F3E;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden; /* Ensure the overflowing part is hidden */
+}
+
+.outer-div {
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+}
+
+.home-description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+.home-image {
+  flex: 1;
+  display: flex;
+  align-items: flex-end; /* Align the image to the bottom */
+  justify-content: center;
+  overflow: hidden; /* Ensure the overflowing part is hidden */
+  position: relative; /* Needed for positioning pseudo-elements */
+}
+
+.home-image img {
+  max-width: none; /* Remove max-width constraint */
+  width: 800px;
+  height: 1200px; /* Increase height to have more of it hidden */
+  border-radius: 10px;
+  position: relative;
+  bottom: -450px; /* Adjust this value to control how much of the image is hidden */
+  background-color: #FF7F3E;
+}
+
+/* Add circular lines around the image */
+.home-image::before,
+.home-image::after {
+  content: '';
+  position: absolute;
+  border: 2px solid white; /* White border for the circular lines */
+  border-radius: 50%; /* Make the pseudo-elements circular */
+  z-index: 1; /* Ensure circles are above the image */
+}
+
+.home-image::before {
+  width: 550px; /* Adjusted size */
+  height: 850px; /* Adjusted size */
+  bottom: -210px; /* Adjust to align with the image */
+
+}
+
+.home-image::after {
+  width: 600px; /* Adjusted size */
+  height: 900px; /* Adjusted size */
+  bottom: -220px; /* Adjust to align with the image */
+}

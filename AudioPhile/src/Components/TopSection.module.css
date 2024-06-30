@@ -1,0 +1,18 @@
+.top-div{
+  height: 40vh;
+  background-color: black;
+  position: relative;
+}
+.top-div-text{
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black; /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}

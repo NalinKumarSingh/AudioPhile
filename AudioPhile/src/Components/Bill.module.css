@@ -1,0 +1,45 @@
+/* Bill.module.css */
+
+.billContainer {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 15px;
+}
+
+.billTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.billDetails {
+  margin-bottom: 20px;
+}
+
+.billItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.itemName {
+  font-size: 16px;
+}
+
+.itemPrice {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+}

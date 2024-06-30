@@ -1,0 +1,22 @@
+/* Footer.module.css */
+.footerContainer {
+  background-color: black; /* Black background */
+  color: white; /* White text */
+  padding: 1rem 0;
+}
+
+.footerContainer a {
+  color: white; /* White links */
+}
+
+.footerContainer .bi {
+  fill: white; /* White icons */
+}
+
+.footerContainer .textBodySecondary {
+  color: white !important; /* Ensure secondary text is also white */
+}
+
+.footerContainer .borderTop {
+  border-top: 2px solid orange; /* Orange border line */
+}

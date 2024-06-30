@@ -1,0 +1,18 @@
+.card {
+  width: 18rem;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 60px; /* Adjust margin between cards */
+  border: 1px solid #ccc; /* Add a border around each card */
+  border-radius: 8px; /* Optional: Add border radius for rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a lifted effect */
+  background-color: #fff; /* Optional: Set a background color */
+  padding: 20px; /* Optional: Add padding inside the card */
+}
+
+.cardImgTop {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
